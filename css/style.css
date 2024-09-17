@@ -203,7 +203,16 @@ img {
 .item-section-two {
   width: calc((100% - 3 * 24px) / 4);
 }
-.title-section-two {
+.icon-section-2 {
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 24px 100px;
+}
+\ .title-section-two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
