@@ -149,6 +149,10 @@ img {
   background-color: #2e2f42;
   height: 600px;
   padding: 188px 0;
+  background-image: url(../images/people-office1.jpg);
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-section-1 {
   align-items: center;
