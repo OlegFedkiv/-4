@@ -106,7 +106,9 @@ img {
 .menu-iteam {
   padding: 24px 0;
 }
-
+.menu-iteam:hover {
+  color: #404bbf;
+}
 .menu-link-iteam {
   font-weight: 500;
   line-height: 1.5;
@@ -114,6 +116,13 @@ img {
   color: #2e2f42;
   padding: 24px 0;
 }
+.active-studio-page:active {
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+}
+
 .menu-link-iteam:hover {
   color: #404bbf;
 }
@@ -128,7 +137,9 @@ img {
   display: flex;
   gap: 40px;
 }
-
+.contacts-item:hover {
+  color: #404bbf;
+}
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -202,6 +213,13 @@ img {
 }
 .item-section-two {
   width: calc((100% - 3 * 24px) / 4);
+}
+.icon-section-2 {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
 }
 
 .title-section-two {
