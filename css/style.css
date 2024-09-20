@@ -160,8 +160,16 @@ img {
   background-color: #2e2f42;
   height: 600px;
   padding: 188px 0;
-  background-image: url(../images/people-office1.jpg);
-  width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
+  max-width: 1440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -195,6 +203,7 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-section-one:hover,
 .button-section-one:focus {
@@ -223,6 +232,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 .title-section-two {
@@ -261,6 +271,8 @@ img {
   gap: 24px;
 }
 .item-section-three {
+  box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -282,6 +294,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.list-icon-section-three {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 /* ............/Section 3 ........... */
@@ -341,6 +358,10 @@ img {
 .page-footer-one {
   background-color: #2e2f42;
   padding: 100px 0px;
+}
+.page-footer-div-section {
+  display: flex;
+  align-items: baseline;
 }
 .link-page-footer {
   font-family: "Raleway", sans-serif;
