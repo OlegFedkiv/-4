@@ -319,6 +319,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item-icon-list-section-three {
   width: 40px;
@@ -330,10 +331,13 @@ img {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
-  align-self: center;
+  align-items: center;
   justify-content: center;
 }
-.link-icon-section-three:hover:focus {
+.link-icon-section-three:hover {
+  background-color: #404bbf;
+}
+.link-icon-section-three:focus {
   background-color: #404bbf;
 }
 .section-three-icon {
@@ -480,9 +484,10 @@ img {
   align-items: center;
   justify-content: center;
 }
-.link-item-page-icon-footer:hover {
+.link-item-page-icon-footer:hover:focus {
   background-color: #31d0aa;
 }
+
 .icons-footer {
   fill: #f4f4fd;
 }
