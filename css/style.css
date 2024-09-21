@@ -101,7 +101,7 @@ img {
 .current {
   position: relative;
 }
-.current::before {
+.current::after {
   content: "";
   position: absolute;
   left: 0px;
