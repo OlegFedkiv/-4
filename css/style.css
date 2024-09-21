@@ -101,7 +101,7 @@ img {
 .current {
   position: relative;
 }
-.current::after {
+.menu-link-iteam.current::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -110,6 +110,9 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+}
+.menu-link-iteam.current {
+  color: #404bbf;
 }
 .page-span {
   color: #2e2f42;
