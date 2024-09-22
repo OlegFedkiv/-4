@@ -250,7 +250,7 @@ img {
 .item-section-two {
   width: calc((100% - 3 * 24px) / 4);
 }
-.box-icon-section-2 {
+.box-icon-section-two {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
