@@ -446,7 +446,7 @@ img {
 .item-section-four:hover .paragraph-overlay {
   transform: translateY(0%);
 }
-.img-section-4-overlay {
+.img-section-four-overlay {
   position: relative;
   overflow: hidden;
 }
